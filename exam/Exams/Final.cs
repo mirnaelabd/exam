@@ -27,7 +27,7 @@ public FinalExam(DateTime examTime, int numberOfQuestions, int time) : base(exam
             Console.WriteLine($"Grade: {score}/{Number_Of_Questions}");
         }
 
-        private int CalculateGrade()
+        public override int CalculateGrade()
         {
             int correctAnswers = 0;
             foreach (var question in Questions)
