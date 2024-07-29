@@ -24,7 +24,7 @@ namespace exam.Exams
             Console.WriteLine($"garde: {garde}/{Number_Of_Questions}");
         }
 
-        private int CalculateGrade()
+       public override int  CalculateGrade()
         {
             int right_answer = 0;
             foreach (var question in Questions)
