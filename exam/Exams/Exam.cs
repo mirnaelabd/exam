@@ -65,5 +65,6 @@ namespace exam.Exams
             TimeSpan timeTaken = EndTime - startTime;
             Console.WriteLine($"Total time taken: {timeTaken.TotalMinutes} minutes");
         }
+       public abstract int CalculateGrade();
     }
 }
